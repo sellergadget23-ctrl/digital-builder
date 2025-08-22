@@ -1,0 +1,300 @@
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Digital Builder | Modern Web Design, UI/UX & Digital Marketing</title>
+<meta name="description" content="Digital Builder offers modern web design, UI/UX, and digital marketing solutions. We help businesses grow online with responsive websites, engaging designs, and targeted campaigns.">
+<meta name="keywords" content="web design, UI/UX, digital marketing, responsive websites, social media marketing, online growth, branding, portfolio, digital solutions">
+<meta name="author" content="Digital Builder">
+
+<!-- Open Graph / Social Media -->
+<meta property="og:title" content="Digital Builder | Modern Web Design, UI/UX & Digital Marketing">
+<meta property="og:description" content="We create responsive websites, intuitive designs, and digital marketing campaigns to grow your business online.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yourwebsite.com/">
+<meta property="og:image" content="https://yourwebsite.com/hero-image.jpg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Digital Builder | Modern Web Design, UI/UX & Digital Marketing">
+<meta name="twitter:description" content="We help businesses grow online with responsive websites, engaging designs, and targeted digital campaigns.">
+<meta name="twitter:image" content="https://yourwebsite.com/hero-image.jpg">
+
+<link rel="canonical" href="https://yourwebsite.com/">
+
+<!-- Favicon -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+<!-- Fonts & Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Your CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<!-- Navbar -->
+<header>
+  <nav class="navbar">
+    <div class="logo">Digital Builder</div>
+
+    <div class="language-switcher">
+      <select id="languageSelect">
+        <option value="en">English</option>
+        <option value="tl">Tagalog</option>
+        <option value="es">Spanish</option>
+        <option value="pt">Portuguese</option>
+      </select>
+    </div>
+
+    <div class="hamburger"><i class="fas fa-bars"></i></div>
+
+    <ul class="nav-links">
+      <li><a href="#home" data-lang="home">Home</a></li>
+      <li><a href="#about" data-lang="about">About</a></li>
+      <li><a href="#services" data-lang="services">Services</a></li>
+      <li><a href="#portfolio" data-lang="portfolio">Portfolio</a></li>
+      <li><a href="#testimonials" data-lang="testimonials">Testimonials</a></li>
+      <li><a href="#contact" data-lang="contact">Contact</a></li>
+    </ul>
+
+    <a href="#contact" class="btn" data-lang="hireMe">Hire Me</a>
+  </nav>
+</header>
+
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1 data-lang="heroTitle">Welcome to Digital Builder</h1>
+    <p data-lang="heroDesc">Your modern solution for web design, digital projects, and online growth.</p>
+    <a href="#contact" class="btn btn-primary" data-lang="getStarted">Get Started</a>
+  </div>
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1581091870622-5e0f2c9e2e9d?auto=format&fit=crop&w=800&q=80" alt="Digital Builder">
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+  <h2 data-lang="aboutTitle">About Digital Builder</h2>
+  <p data-lang="aboutDesc">We are a team of modern digital experts helping businesses and individuals grow online. From websites to branding and social media presence, we create impactful solutions that work.</p>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services">
+  <h2 data-lang="servicesTitle">Our Services</h2>
+  <div class="service-cards">
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <i class="fas fa-laptop-code fa-3x"></i>
+          <h3 data-lang="service1Title">Web Development</h3>
+          <p data-lang="service1Desc">Modern, responsive websites tailored to your business needs.</p>
+        </div>
+        <div class="card-back">
+          <h3 data-lang="service1Title">Web Development</h3>
+          <p data-lang="service1Back">We build scalable websites using React, Vue, and WordPress for maximum performance.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <i class="fas fa-paint-brush fa-3x"></i>
+          <h3 data-lang="service2Title">UI/UX Design</h3>
+          <p data-lang="service2Desc">Beautiful, user-friendly designs that engage your audience.</p>
+        </div>
+        <div class="card-back">
+          <h3 data-lang="service2Title">UI/UX Design</h3>
+          <p data-lang="service2Back">We create intuitive interfaces and immersive experiences to boost user engagement.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">
+          <i class="fas fa-bullhorn fa-3x"></i>
+          <h3 data-lang="service3Title">Digital Marketing</h3>
+          <p data-lang="service3Desc">Social media, SEO, and campaigns that boost your reach.</p>
+        </div>
+        <div class="card-back">
+          <h3 data-lang="service3Title">Digital Marketing</h3>
+          <p data-lang="service3Back">We create targeted campaigns to grow your brand presence and increase conversions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+  <h2 data-lang="portfolioTitle">Portfolio</h2>
+  <div class="portfolio-grid">
+    <div class="portfolio-item"><img src="https://via.placeholder.com/300x200" alt="Project 1"></div>
+    <div class="portfolio-item"><img src="https://via.placeholder.com/300x200" alt="Project 2"></div>
+    <div class="portfolio-item"><img src="https://via.placeholder.com/300x200" alt="Project 3"></div>
+    <div class="portfolio-item"><img src="https://via.placeholder.com/300x200" alt="Project 4"></div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials">
+  <h2 data-lang="testimonialsTitle">What Clients Say</h2>
+  <div class="testimonial-cards">
+    <div class="testimonial">
+      <p data-lang="testimonial1">"Digital Builder created a website that exceeded our expectations. Highly recommended!"</p>
+      <h4 data-lang="testimonial1Author">- Jane Doe</h4>
+    </div>
+    <div class="testimonial">
+      <p data-lang="testimonial2">"Professional, creative, and timely. Our online presence has never looked better."</p>
+      <h4 data-lang="testimonial2Author">- John Smith</h4>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2 data-lang="contactTitle">Contact Me</h2>
+  <p data-lang="contactDesc">Have a project in mind? Let’s build it together!</p>
+  <form>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn btn-primary" data-lang="sendMessage">Send Message</button>
+  </form>
+  <div class="social">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p data-lang="footerText">&copy; 2025 Digital Builder. All Rights Reserved.</p>
+</footer>
+
+<script>
+/* Hamburger toggle */
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
+
+
+
+
+
+  // Hero 3D rotation
+  const heroImage = document.querySelector('.hero-image img');
+  document.addEventListener('mousemove', e => {
+    const x = (window.innerWidth/2 - e.pageX)/30;
+    const y = (window.innerHeight/2 - e.pageY)/30;
+    heroImage.style.transform = `rotateY(${x}deg) rotateX(${y}deg) scale(1.05)`;
+  });
+  document.addEventListener('mouseleave', () => {
+    heroImage.style.transform = 'rotateY(0deg) rotateX(0deg) scale(1)';
+  });
+
+  // Language translations
+  const translations = {
+  en: {
+    home: "Home", about: "About", services: "Services", portfolio: "Portfolio",
+    testimonials: "Testimonials", contact: "Contact", hireMe: "Hire Me",
+    heroTitle: "Welcome to Digital Builder", heroDesc: "Your modern solution for web design, digital projects, and online growth.",
+    getStarted: "Get Started",
+    aboutTitle: "About Digital Builder", aboutDesc: "We are a team of modern digital experts helping businesses and individuals grow online. From websites to branding and social media presence, we create impactful solutions that work.",
+    servicesTitle: "Our Services",
+    service1Title: "Web Development", service1Desc: "Modern, responsive websites tailored to your business needs.", service1Back: "We build scalable websites using React, Vue, and WordPress for maximum performance.",
+    service2Title: "UI/UX Design", service2Desc: "Beautiful, user-friendly designs that engage your audience.", service2Back: "We create intuitive interfaces and immersive experiences to boost user engagement.",
+    service3Title: "Digital Marketing", service3Desc: "Social media, SEO, and campaigns that boost your reach.", service3Back: "We create targeted campaigns to grow your brand presence and increase conversions.",
+    portfolioTitle: "Portfolio",
+    testimonialsTitle: "What Clients Say",
+    testimonial1: "\"Digital Builder created a website that exceeded our expectations. Highly recommended!\"", testimonial1Author: "- Jane Doe",
+    testimonial2: "\"Professional, creative, and timely. Our online presence has never looked better.\"", testimonial2Author: "- John Smith",
+    contactTitle: "Contact Me", contactDesc: "Have a project in mind? Let’s build it together!", sendMessage: "Send Message",
+    footerText: "© 2025 Digital Builder. All Rights Reserved.",
+    placeholders: { name: "Your Name", email: "Your Email", message: "Your Message" }
+  },
+  tl: {
+    home: "Bahay", about: "Tungkol sa Amin", services: "Mga Serbisyo", portfolio: "Portfolio",
+    testimonials: "Mga Patotoo", contact: "Makipag-ugnayan", hireMe: "Kunin Ako",
+    heroTitle: "Maligayang Pagdating sa Digital Builder", heroDesc: "Ang modernong solusyon mo para sa web design, digital projects, at online growth.",
+    getStarted: "Magsimula",
+    aboutTitle: "Tungkol sa Digital Builder", aboutDesc: "Kami ay isang grupo ng modernong digital experts na tumutulong sa mga negosyo at indibidwal na lumago online. Mula sa websites hanggang branding at social media presence, lumilikha kami ng mga epektibong solusyon.",
+    servicesTitle: "Aming Mga Serbisyo",
+    service1Title: "Web Development", service1Desc: "Modernong, responsive websites na akma sa iyong negosyo.", service1Back: "Gumagawa kami ng scalable websites gamit ang React, Vue, at WordPress para sa pinakamataas na performance.",
+    service2Title: "UI/UX Design", service2Desc: "Maganda, user-friendly na designs na nakakakuha ng audience.", service2Back: "Lumilikha kami ng intuitive interfaces at immersive experiences para tumaas ang user engagement.",
+    service3Title: "Digital Marketing", service3Desc: "Social media, SEO, at campaigns na nagpapalawak ng iyong reach.", service3Back: "Lumilikha kami ng targeted campaigns para palaguin ang presensya ng iyong brand at madagdagan ang conversions.",
+    portfolioTitle: "Portfolio",
+    testimonialsTitle: "Sinasabi ng Mga Kliyente",
+    testimonial1: "\"Lumikha ang Digital Builder ng website na lampas sa aming inaasahan. Lubos na inirerekomenda!\"", testimonial1Author: "- Jane Doe",
+    testimonial2: "\"Propesyonal, malikhain, at maagap. Ang aming online presence ay hindi kailanman naging maganda.\"", testimonial2Author: "- John Smith",
+    contactTitle: "Makipag-ugnayan", contactDesc: "May proyekto ka ba? Gawin natin ito nang magkasama!", sendMessage: "Ipadala",
+    footerText: "© 2025 Digital Builder. Lahat ng Karapatan ay Nakalaan.",
+    placeholders: { name: "Pangalan Mo", email: "Iyong Email", message: "Iyong Mensahe" }
+  },
+  es: {
+    home: "Inicio", about: "Acerca de", services: "Servicios", portfolio: "Portafolio",
+    testimonials: "Testimonios", contact: "Contacto", hireMe: "Contrátame",
+    heroTitle: "Bienvenido a Digital Builder", heroDesc: "Tu solución moderna para diseño web, proyectos digitales y crecimiento online.",
+    getStarted: "Comenzar",
+    aboutTitle: "Acerca de Digital Builder", aboutDesc: "Somos un equipo de expertos digitales modernos que ayudan a empresas e individuos a crecer online. Desde sitios web hasta branding y presencia en redes sociales, creamos soluciones efectivas.",
+    servicesTitle: "Nuestros Servicios",
+    service1Title: "Desarrollo Web", service1Desc: "Sitios web modernos y responsivos adaptados a tu negocio.", service1Back: "Construimos sitios escalables usando React, Vue y WordPress para máximo rendimiento.",
+    service2Title: "Diseño UI/UX", service2Desc: "Diseños hermosos y fáciles de usar que atraen a tu audiencia.", service2Back: "Creamos interfaces intuitivas y experiencias inmersivas para aumentar la interacción de los usuarios.",
+    service3Title: "Marketing Digital", service3Desc: "Redes sociales, SEO y campañas que aumentan tu alcance.", service3Back: "Creamos campañas dirigidas para crecer la presencia de tu marca e incrementar conversiones.",
+    portfolioTitle: "Portafolio",
+    testimonialsTitle: "Lo que Dicen los Clientes",
+    testimonial1: "\"Digital Builder creó un sitio web que superó nuestras expectativas. ¡Altamente recomendado!\"", testimonial1Author: "- Jane Doe",
+    testimonial2: "\"Profesional, creativo y puntual. Nuestra presencia online nunca se vio mejor.\"", testimonial2Author: "- John Smith",
+    contactTitle: "Contacto", contactDesc: "¿Tienes un proyecto en mente? ¡Construyámoslo juntos!", sendMessage: "Enviar Mensaje",
+    footerText: "© 2025 Digital Builder. Todos los derechos reservados.",
+    placeholders: { name: "Tu Nombre", email: "Tu Correo", message: "Tu Mensaje" }
+  },
+  pt: {
+    home: "Início", about: "Sobre Nós", services: "Serviços", portfolio: "Portfólio",
+    testimonials: "Depoimentos", contact: "Contato", hireMe: "Contrate-me",
+    heroTitle: "Bem-vindo ao Digital Builder", heroDesc: "Sua solução moderna para web design, projetos digitais e crescimento online.",
+    getStarted: "Começar",
+    aboutTitle: "Sobre Digital Builder", aboutDesc: "Somos uma equipe de especialistas digitais modernos ajudando empresas e indivíduos a crescer online. De sites a branding e presença em redes sociais, criamos soluções impactantes.",
+    servicesTitle: "Nossos Serviços",
+    service1Title: "Desenvolvimento Web", service1Desc: "Sites modernos e responsivos adaptados ao seu negócio.", service1Back: "Construímos sites escaláveis usando React, Vue e WordPress para máximo desempenho.",
+    service2Title: "Design UI/UX", service2Desc: "Designs bonitos e fáceis de usar que envolvem seu público.", service2Back: "Criamos interfaces intuitivas e experiências imersivas para aumentar o engajamento do usuário.",
+    service3Title: "Marketing Digital", service3Desc: "Redes sociais, SEO e campanhas que aumentam seu alcance.", service3Back: "Criamos campanhas direcionadas para crescer a presença da sua marca e aumentar conversões.",
+    portfolioTitle: "Portfólio",
+    testimonialsTitle: "O Que os Clientes Dizem",
+    testimonial1: "\"Digital Builder criou um site que superou nossas expectativas. Altamente recomendado!\"", testimonial1Author: "- Jane Doe",
+    testimonial2: "\"Profissional, criativo e pontual. Nossa presença online nunca esteve melhor.\"", testimonial2Author: "- John Smith",
+    contactTitle: "Contato", contactDesc: "Tem um projeto em mente? Vamos construí-lo juntos!", sendMessage: "Enviar Mensagem",
+    footerText: "© 2025 Digital Builder. Todos os direitos reservados.",
+    placeholders: { name: "Seu Nome", email: "Seu Email", message: "Sua Mensagem" }
+  }
+};
+
+// Language switching logic
+const languageSelect = document.getElementById('languageSelect');
+function updateLanguage(lang) {
+  document.querySelectorAll('[data-lang]').forEach(el => {
+    const key = el.getAttribute('data-lang');
+    el.textContent = translations[lang][key];
+  });
+  document.querySelector('input[name="name"]').placeholder = translations[lang].placeholders.name;
+  document.querySelector('input[name="email"]').placeholder = translations[lang].placeholders.email;
+  document.querySelector('textarea[name="message"]').placeholder = translations[lang].placeholders.message;
+}
+languageSelect.addEventListener('change', e => updateLanguage(e.target.value));
+updateLanguage('en'); // Default language
+
+</script>
+</body>
+</html>

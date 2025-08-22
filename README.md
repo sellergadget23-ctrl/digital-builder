@@ -39,4 +39,4 @@ You can host this website using GitHub Pages or any web hosting service.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/digital-builder-website.git
+git clone https://github.com//digital-builder.git
